@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "lambda-serve": "netlify-lambda serve functions",
-      "lambda-build": "netlify-lambda build functions"
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "mongodb": "^3.3.0-beta2",
     "netlify-lambda": "^1.4.3",
     "serverless-http": "^1.9.1"
   }
